@@ -110,10 +110,6 @@
     if ([image isKindOfClass:[UIImage class]]) {
         image.lcck_cornerRadius = YES;
         self.originImageView.image = image;
-    } else {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self updateImageView];
-        });
     }
 }
 
