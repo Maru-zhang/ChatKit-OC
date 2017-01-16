@@ -223,7 +223,7 @@ NSLocalizedStringFromTableInBundle((key), nil, [NSBundle bundleWithPath:[[NSBund
 
 		if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0"))
 		{
-			self.modalPresentationStyle = UIModalPresentationCustom;
+			self.modalPresentationStyle = UIModalPresentationCurrentContext;
 			self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
             self.modalPresentationCapturesStatusBarAppearance = YES;
 		}
